@@ -1,0 +1,91 @@
+/*
+#D6D6F2 - gray-01 #E2E2F5 - gray-02
+#BF7BFB - purple #212187 - blue-light
+#151557 - blue #000013 - blue-dark
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(image/sky.png);
+    background-position: top;
+    background-size: 100%;
+    position: fixed;
+}
+
+main {
+    display: inline-flex;
+    color: #D6D6F2;
+    padding: 24.9rem 90rem 29.5rem 16rem;
+    gap: 24.2rem;
+}
+
+#text{
+    width: 38rem;
+    height: 27.6rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 2.4rem;
+}
+
+p {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 140%;
+    padding-bottom: 5.6rem;
+}
+
+form {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.bt {
+    background-color: #151557;
+    color: #E2E2F5;
+    text-transform: uppercase;
+    border: none;
+    padding: 1.2rem 2.4rem;
+    border-radius: 99.9rem;
+    cursor: pointer;
+}
+
+.bt:hover{
+    background-color: #212187;
+}
+
+#E404 {
+    display: inline-flex;
+    width: 46rem;
+    height: 23rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.E4 {
+    background: url(image/4.png);
+    display: inline-flex;
+    border: none;
+    width: 8rem;
+    height: 10.5rem;
+}
+
+iframe {
+    border-radius: 1000rem;
+    border: none;
+    width: 23rem;
+    height: 20rem;
+}
